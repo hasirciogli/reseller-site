@@ -20,7 +20,7 @@ https://hsrcpay.com
 ![UI Homepage](https://media.discordapp.net/attachments/1160499704195469312/1160499783425871922/image.png)
 ![UI Depositpage](https://media.discordapp.net/attachments/1160499704195469312/1160499884798001252/image.png)
 
-
+```sql
 --
 -- Database: `reseller`
 --
@@ -122,3 +122,4 @@ ALTER TABLE `deposit`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1;
 COMMIT;
 
+```

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+.bg-noxy-primary {
+    background-color: #181819;
+}
+
+.bg-noxy-red {
+    background-color: #2D1D1B;
+}
+
+.text-noxy-primary {
+    color: #E7E7E7;
+}
+
+.text-noxy-red {
+    color: #9A4131;
+}
+
+
+
+
+
+
+.ffonts-nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+.ffonts-gabarito {
+    font-family: 'Gabarito', cursive;
+}
+
+
+
+
+.anim-noxy-come-left {
+    text-align: center;
+    opacity: 0;
+    transform: translateX(-20px);
+    animation: come-left-anim 1.5s ease-in-out forwards;
+}
+
+.anim-noxy-come-right {
+    text-align: center;
+    opacity: 0;
+    transform: translateX(20px);
+    animation: come-right-anim 1.5s ease-in-out forwards;
+}
+
+
+
+
+.anim-noxy-come-top {
+    text-align: center;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: come-top-anim 1.5s ease-in-out forwards;
+}
+
+
+.anim-noxy-come-bottom {
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: come-bottom-anim 1.5s ease-in-out forwards;
+}
+
+@keyframes come-bottom-anim {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes come-left-anim {
+    0% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes come-right-anim {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes come-top-anim {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.anim-noxy-fatality {
+    animation: ft-glitch .65s cubic-bezier(.25, .46, .45, .9399999999999999) infinite both;
+}
+
+@keyframes ft-glitch {
+    0% {
+        text-shadow: none
+    }
+
+    25% {
+        text-shadow: -2px -2px 0 #eb055a, 2px 2px 0 #4632f0
+    }
+
+    50% {
+        text-shadow: 2px -2px 0 #eb055a, -2px 2px 0 #4632f0
+    }
+
+    75% {
+        text-shadow: -2px 2px 0 #eb055a, 2px -2px 0 #4632f0
+    }
+
+    100% {
+        text-shadow: 2px 2px 0 #eb055a, -2px -2px 0 #4632f0
+    }
+}

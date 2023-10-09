@@ -1,0 +1,12 @@
+{
+    "require": {
+        "izniburak/router": "^2.5",
+        "symfony/filesystem": "^6.3",
+        "guzzlehttp/guzzle": "^7.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    }
+}

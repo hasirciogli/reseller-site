@@ -1,0 +1,23 @@
+/* This example part of kwd-dashboard see https://kamona-wd.github.io/kwd-dashboard/ */
+/* So here we will write some classes to simulate dark mode and tailwind css config in our project */
+:root {
+    --light: #edf2f9;
+    --dark: #152e4d;
+    --darker: #12263f;
+}
+
+.dark .dark\:text-light {
+    color: var(--light);
+}
+
+.dark .dark\:bg-dark {
+    background-color: var(--dark);
+}
+
+.dark .dark\:bg-darker {
+    background-color: var(--darker);
+}
+
+.dark .dark\:text-gray-300 {
+    color: #D1D5DB;
+}
